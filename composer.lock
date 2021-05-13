@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9107a7545175cb7ef2a68ea9cfbc4cb",
+    "content-hash": "e0dc890156a7a46166e2721b74777abb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3187,6 +3187,68 @@
                 "source": "https://github.com/bobthecow/psysh/tree/v0.10.8"
             },
             "time": "2021-04-10T16:23:39+00:00"
+        },
+        {
+            "name": "rafflesargentina/l8-filterable-sortable",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rafflesargentina/l8-filterable-sortable.git",
+                "reference": "9a4858c8f83248b6868eed7243808d515c754489"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rafflesargentina/l8-filterable-sortable/zipball/9a4858c8f83248b6868eed7243808d515c754489",
+                "reference": "9a4858c8f83248b6868eed7243808d515c754489",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "8.*",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "laravel/legacy-factories": "^1.0.4",
+                "orchestra/testbench": "^6.9",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "RafflesArgentina\\FilterableSortable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mario Patronelli",
+                    "email": "mario@raffles.com.ar",
+                    "homepage": "http://raffles.com.ar",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A trait for filtering and sorting Query Builder results, based on Laracasts/Dedicated-Query-String-Filtering",
+            "homepage": "https://github.com/rafflesargentina/l5-filterable-sortable",
+            "keywords": [
+                "filter",
+                "laravel",
+                "query",
+                "sort",
+                "trait"
+            ],
+            "support": {
+                "issues": "https://github.com/rafflesargentina/l8-filterable-sortable/issues",
+                "source": "https://github.com/rafflesargentina/l8-filterable-sortable/tree/v1.0"
+            },
+            "time": "2021-01-20T16:16:19+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
