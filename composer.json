@@ -15,7 +15,8 @@
         "laravel/passport": "^10.1",
         "laravel/socialite": "^5.2",
         "laravel/tinker": "^2.5",
-        "rafflesargentina/l8-filterable-sortable": "^1.0"
+        "rafflesargentina/l8-filterable-sortable": "^1.0",
+        "rafflesargentina/l8-restful-controller": "^1.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

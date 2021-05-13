@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0dc890156a7a46166e2721b74777abb",
+    "content-hash": "4adf4bb64e06f565bfd2a729ef42bdd3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3249,6 +3249,65 @@
                 "source": "https://github.com/rafflesargentina/l8-filterable-sortable/tree/v1.0"
             },
             "time": "2021-01-20T16:16:19+00:00"
+        },
+        {
+            "name": "rafflesargentina/l8-restful-controller",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rafflesargentina/l8-restful-controller.git",
+                "reference": "5be8c47dba047d66bd80112d91c1abe48bbaf709"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rafflesargentina/l8-restful-controller/zipball/5be8c47dba047d66bd80112d91c1abe48bbaf709",
+                "reference": "5be8c47dba047d66bd80112d91c1abe48bbaf709",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "8.*",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.9",
+                "phpunit/phpunit": "^9.5",
+                "rafflesargentina/l8-repository": "^1.0",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "RafflesArgentina\\RestfulController\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mario Patronelli",
+                    "email": "mario@raffles.com.ar",
+                    "homepage": "http://raffles.com.ar",
+                    "role": "Developer"
+                }
+            ],
+            "description": "RESTful Controller for Laravel 8",
+            "homepage": "https://github.com/rafflesargentina/l8-restful-controller",
+            "keywords": [
+                "laravel 8",
+                "restful controller"
+            ],
+            "support": {
+                "issues": "https://github.com/rafflesargentina/l8-restful-controller/issues",
+                "source": "https://github.com/rafflesargentina/l8-restful-controller/tree/v1.0"
+            },
+            "time": "2021-01-20T16:04:40+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
