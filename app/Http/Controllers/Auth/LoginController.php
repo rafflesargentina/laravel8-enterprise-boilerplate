@@ -133,9 +133,6 @@ class LoginController extends Controller
     {
         $user = $this->guard()->user();
 
-        $token = $user->createToken(env('APP_NAME'));
-        $accessToken = $token->accessToken;
-
         //$user->loadMissing();
 
         $token = $user->createToken(env('APP_NAME'));
